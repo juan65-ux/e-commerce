@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-white py-12 px-6">
+    <footer className="bg-blue-950 text-white py-12 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Información de la empresa */}
@@ -13,7 +13,7 @@ const Footer = () => {
               </div>
               <div>
                 <div className="text-xl font-bold">Imperial</div>
-                <div className="text-sm text-gray-400"></div>
+                <div className="text-sm text-gray-400">MODA URBANA</div>
               </div>
             </div>
             <p className="text-gray-300 mb-4 max-w-md">
@@ -32,18 +32,18 @@ const Footer = () => {
               </a>
             </div>
           </div>
-          
+
           {/* Servicios */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Servicios</h4>
             <ul className="space-y-2 text-gray-300">
-              <li><a href="#" className="hover:text-white transition-colors duration-200">Desarrollo Web</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-200">Apps Móviles</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-200">E-commerce</a></li>
-              <li><a href="#" className="hover:text-white transition-colors duration-200">Consultoría</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-200">Tienda de ropa</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-200">Diseños exclusivos</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-200">Marketing</a></li>
+              <li><a href="#" className="hover:text-white transition-colors duration-200">Arte Urbano</a></li>
             </ul>
           </div>
-          
+
           {/* Contacto */}
           <div>
             <h4 className="text-lg font-semibold mb-4">Contacto</h4>
@@ -55,11 +55,11 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        
+
         {/* Copyright */}
-        <div className="border-t border-gray-800 pt-8 text-center">
+        <div className="border-t border-blue-800 pt-8 text-center">
           <p className="text-gray-400 text-sm">
-            © 2025 [NOMBRE DE TU EMPRESA]. Todos los derechos reservados. 
+            © 2025 IMPERIAL. Todos los derechos reservados. 
             Desarrollado con ❤️ y React.
           </p>
         </div>

@@ -2,43 +2,43 @@ import React from 'react';
 
 const Services = () => {
   const services = [
+    
     {
-      title: 'Desarrollo Web',
-      description: 'Creamos sitios web modernos, rápidos y optimizados para tu negocio.',
-      icon: '🌐',
-      price: 'Desde $500',
-      features: ['Responsive Design', 'SEO Optimizado', 'Panel de Admin']
+      title: 'Prendas superiores',
+      description: 'Camisetas gráficas / estampadas , Polos oversize ,Hoodies (sudaderas con capucha) , Sweatshirts (sudaderas sin capucha), Chaquetas bomber , Camisas tipo leñador / cuadros, Crop tops urbanos , Tank tops / Muscle tees.',
+      icon: '🔥',
+      features: ['Ediciones Premium', 'Materiales top: algodón pesado, denim japonés, french terry', 'Costuras dobles o reforzadas, Hecho a mano'] ,
     },
     {
-      title: 'Aplicaciones Móviles',
-      description: 'Apps nativas e híbridas para iOS y Android que conectan con tus usuarios.',
-      icon: '📱',
-      price: 'Desde $1,200',
-      features: ['iOS & Android', 'UI/UX Premium', 'Notificaciones Push']
+      title: 'Prendas Inferiores',
+      description: 'Jeans rotos / desgastados ,Joggers / pantalones deportivos , Cargo pants , Shorts oversize , Bermudas estilo urbano',
+      icon: '👖',
+      features: ['Ediciones Premium', 'Materiales top: algodón pesado, denim japonés, french terry', 'Costuras dobles o reforzadas, Hecho a mano'] ,
     },
     {
-      title: 'E-commerce',
-      description: 'Tiendas online completas con sistemas de pago y gestión de inventario.',
-      icon: '🛒',
-      price: 'Desde $800',
-      features: ['Pagos Seguros', 'Gestión Stock', 'Dashboard Ventas']
+      title: 'Calzado Urbano',
+      description: 'Zapatillas tipo sneakers , Botas urbanas / de combate , Zapatos chunky (voluminosos)',
+      icon: '👟',
+      features: ['Ediciones Premium', 'Materiales top: Microfibra premium: imita el cuero, es resistente y ecológico.', 'TPU (poliuretano termoplástico): zapatillas con diseño futurista, suela envolvente o soportes, Materiales reflectivos o con tecnología 3M'] ,
     },
     {
-      title: '[TU SERVICIO PERSONALIZADO]', // PERSONALIZAR
-      description: '[DESCRIPCIÓN DE TU SERVICIO]',
-      icon: '🎯',
-      price: 'Desde $XXX',
-      features: ['Feature 1', 'Feature 2', 'Feature 3']
+      title: 'Estilos Urbanos por Inspiración', // PERSONALIZAR
+      description: 'Skater , Hip-Hop , Trap / Reggaetón , Graffiti / Arte urbano , Techwear (futurista, táctico)',
+      icon: '💥',
+      features: ['Ediciones Premium', 'Materiales top: algodón pesado, denim japonés, french terry', 'Costuras dobles o reforzadas, Hecho a mano'] ,
     }
   ];
 
   return (
-    <section className="py-16 px-6 bg-gray-50">
-      <div className="max-w-6xl mx-auto">
+    
+     <section className="py-16 px-6 bg-gradient-to-r from-blue-950 to-black text-white">
+
+<div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="text-4xl font-bold text-gray-800 mb-4">
-            Nuestros Servicios
-          </h2>
+          <h2 className="text-4xl font-bold text-yellow-500 mb-4">
+  Nuestros Servicios
+</h2>
+
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
             Ofrecemos soluciones tecnológicas integrales para hacer crecer tu negocio
           </p>
@@ -77,7 +77,7 @@ const Services = () => {
               
               {/* Botón */}
               <button className="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700 transition-colors duration-200">
-                Cotizar Ahora
+                😵‍💫
               </button>
             </div>
           ))}

@@ -5,7 +5,8 @@ import miImagen from "../../assets/travis-scott.jpg";
 
 const Hero = () => {
   return (
-    <section className="bg-gradient-to-r from-black-600 to-black-800 text-white py-20 px-6 mt-20">
+    <section className="bg-black text-white py-20 px-6 mt-2">
+
       <a href={miImagen} target="_blank" rel="noopener noreferrer">
         <img src={miImagen} alt="Mi imagen descargada" className="mx-auto rounded-lg shadow-lg mb-10" />
       </a>
@@ -69,7 +70,7 @@ const Hero = () => {
               <div className="absolute top-10 left-10 w-16 h-16 bg-yellow-400 rounded-lg flex items-center justify-center animate-bounce">
                 <span className="text-2xl">💡</span>
               </div>
-              <div className="absolute bottom-10 right-10 w-16 h-16 bg-green-400 rounded-lg flex items-center justify-center animate-pulse">
+              <div className="absolute bottom-10 right-10 w-16 h-16 bg-orange-400 rounded-lg flex items-center justify-center animate-pulse">
                 <span className="text-2xl">⚡</span>
               </div>
             </div>
